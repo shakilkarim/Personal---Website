@@ -7,9 +7,18 @@ h2{
     
  
 }
+h1{
+    text-align: center;
+    margin-right: 250px;
+}
+
 h3{
     color: #ec4c7a;
     font-size: 40px;
+}
+h4{
+    text-align: center;
+    margin-right: 250px;
 }
 p{
     color: dimgray;
@@ -17,23 +26,26 @@ p{
 .half-width{
     width: 40%;
     float: left;
-    padding: 107px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     margin-left: 30px;
 }
 .half-width h2{
     padding: 0;
     margin: 0;
-    line-height: 0px;
+    line-height: 2px;
+}
+.half-width h3{
+    line-height: 4px;
 }
 .half-width img{
-    width: 85%;
+    width: 55%;
     margin-left: 150px;
     padding-top: 3px;
 }
 section{
-    height: 500px;
+    height: 400px;
     padding-left: 200px;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 .link{
     text-decoration: none;
@@ -46,6 +58,44 @@ section{
 }
 .header {
 	background-image: url("images/header-bg.png");
-	 background-repeat: no-repeat;
-	background-size: cover;
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+.biogrph{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    padding-bottom: 150px;
+    
+
+}
+.images{
+    width: 25%;
+    float: left;
+}
+.latest{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.para{
+    text-align: center;
+    margin-right: 250px;
+}
+.text-one{
+    background-color: #ec4e87;
+    width: 35%;
+    margin: 10px auto;
+    padding: 20px 10px;
+    padding-left: 200px;
+    margin-left: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.copy{
+    text-align: center;
+}
+.footer{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
